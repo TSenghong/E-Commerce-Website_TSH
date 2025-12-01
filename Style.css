@@ -1,0 +1,278 @@
+/* HEADER */
+.header-section {
+    background: #39646a;
+}
+.main-logo {
+    width: 130px;
+}
+.shop-desc {
+    font-size: 14px;
+}
+
+/* Product Header */
+.product-header {
+    background: #39646a;
+    padding: 6px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Product Card */
+.product-title {
+    font-weight: 600;
+}
+.stock-status {
+    color: blue;
+    font-weight: bold;
+}
+.sku {
+    color: teal;
+}
+.old-price {
+    color: red;
+    text-decoration: line-through;
+}
+.new-price {
+    color: red;
+    font-weight: bold;
+}
+
+/* Explore Now Button */
+.explore-btn {
+    display: inline-block;
+    background: #39646a;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+.explore-btn:hover {
+    background: #2d4e53;
+}
+
+/* Slideshow */
+#topSaleCarousel {
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.top-sale-img {
+    height: 350px;
+    object-fit: cover;
+}
+
+/* Scroll Buttons */
+#scrollUpBtn, #scrollDownBtn {
+    position: fixed;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #39646a;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 999;
+}
+#scrollUpBtn { bottom: 80px; }
+#scrollDownBtn { bottom: 30px; }
+
+/* Footer */
+.footer {
+    background: #39646a;
+}
+
+/* Fade-Up Animation */
+.fade-up {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0f0f0f;
+    color: white;
+}
+
+.hero {
+    background: linear-gradient(to bottom right, #39646a, #b9d3c6);
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #39646a;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 40px;
+}
+
+.about-left {
+    flex: 1;
+}
+
+.about-right img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 15px #39646a;
+}
+
+.features {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 70px;
+}
+
+.feature-box {
+    background: #121212;
+    padding: 25px;
+    width: 180px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #39646a;
+    box-shadow: 0 0 12px #39646a;
+}
+
+.feature-box i {
+    font-size: 3px;
+    color: #39646a;
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to bottom right, #020b33, #000);
+}
+
+.hero h1 {
+    color: #00aaff;
+    font-size: 45px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    padding: 40px 10%;
+    gap: 30px;
+}
+
+.service-card {
+    background: #121212;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #39646a;
+    box-shadow: 0px 0px 12px #39646a;
+}
+
+.service-card i {
+    font-size: 40px;
+    margin-bottom: 15px;
+    color: #39646a;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.hero {
+    text-align: center;
+    padding: 70px 20px;
+    background: linear-gradient(to bottom right, #012a4a, #000);
+}
+
+.hero h1 {
+    font-size: 45px;
+    color: #39646a;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 10%;
+    gap: 40px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+    color: #39646a;
+}
+
+.contact-info iframe {
+    width: 100%;
+    height: 280px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #39646a;
+}
+
+.contact-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input,
+textarea {
+    padding: 14px;
+    background: #121212;
+    border: 1px solid #39646a;
+    color: white;
+    border-radius: 10px;
+}
+
+button {
+    padding: 14px;
+    background: #39646a;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
